@@ -1,0 +1,21 @@
+html{
+  font-size: 1.5rem;
+}
+body{
+  text-align: center;
+      background: url(ToDoCover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+.done{
+  text-decoration: line-through;
+  color: black;
+}
+.container{
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
